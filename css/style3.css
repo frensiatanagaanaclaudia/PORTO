@@ -198,7 +198,7 @@ margin-left: 500px;
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  padding: 200px 0;
+  padding: 100px 0;
 }
 
 .hero__container {
@@ -289,9 +289,9 @@ margin-left: 500px;
   margin: 0 auto;
   height: 90%;
   z-index: 1;
-  width: 100%;
+  width: 90%;
   max-width: 1300px;
-  padding: 0 50px;
+  padding: 0 120px;
 }
 
 .main__content {
