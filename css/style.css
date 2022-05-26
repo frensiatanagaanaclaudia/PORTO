@@ -57,6 +57,7 @@ section{
     background:#fd1d1d;
     letter-spacing: .2rem;
 }
+
 header{
     position: fixed;
     top:0; left:0; bottom:0;
@@ -183,7 +184,7 @@ header .follow a:hover{
 
 .home .content h3{
     font-size: 4.5rem;
-    color:#111;
+    color:#red;
     text-transform: uppercase;
 }
 
@@ -435,7 +436,7 @@ header .follow a:hover{
     overflow:hidden;
     box-shadow: var(--box-shadow);
     position: relative;
-    border:1rem solid #FE8116;
+    border:1rem solid #ee0979;
 }
 
 .portfolio .box-container .box img{
@@ -461,7 +462,22 @@ header .follow a:hover{
 
 .portfolio .box-container .box .content h3{
     font-size: 4.5rem;
-    color:#FFCF07;
+     background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff6a00,
+    #ee0979
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -mo-text-fill-color: transparent;
     text-transform: uppercase;
     transform: translateY(-5rem);
     opacity: 0;
